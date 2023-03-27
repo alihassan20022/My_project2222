@@ -1,0 +1,82 @@
+E-Commerce
+** users
+- id
+- name
+- email
+- password
+- phone
+- type
+
+** categories
+- id
+- name
+- image
+- parent_id
+
+** products
+- id
+- name
+- image
+- price
+- sale_price
+- quantity
+- description
+- views
+- category_id
+- user_id
+
+** coupons
+- id
+- type
+- coupon
+- discount
+- expire
+
+** reviews
+- id
+- comment
+- star
+- product_id
+- user_id
+
+** advertisements
+- id
+- image
+- link
+- expire_date
+
+** testimonials
+- id
+- text
+- name
+- position
+- image
+
+** carts
+- id
+- product_id
+- user_id
+- price
+- coupon_id
+- order_id
+
+** orders
+- id
+- user_id
+- total
+- payment_status
+- address
+
+** payments
+- id
+- order_id
+- total
+- transaction_id
+
+** settings
+- id
+- logo
+- copyright
+- facebook
+- twitter
+- vendore_percentage
